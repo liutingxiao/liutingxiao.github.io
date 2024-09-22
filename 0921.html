@@ -5,12 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>welcome to my home</title>
     <style>
-        *{
-            /* border: 2px solid blue ; */
-            margin: 0;
-            font-size: 36px;
-            text-align: center;
-        }
         p{
             border: 1px solid blue;
         }
@@ -59,12 +53,6 @@
           i ++ ; 
          }
        console.timeEnd('xmb') ;
-   //    myBody.querySelector('main').textContent = "算一个小目标的时间：" + ( new Date() - timerBegin ) + 'ms';
-   /**********************
-     1.利用异步代码 fetch 从文本文件中获取字符串，字符串是CET6所有单词  
-     2.利用字符串的API，用split把字符串处理成数组，用slice把字符串切割，用indexOf和lastIndexOf获取字符位置
-     3.用DOM控制技术，textContent属性，把字符串赋值给页面的元素         
-  */
    let strCET6 = '' ;
    let arrCET6 = [] ;
    fetch('cet6.txt')
